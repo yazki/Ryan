@@ -11,14 +11,14 @@ int32 FBullCowGame::GetHiddenWordLength() const { return MyHiddenWord.length();}
 bool FBullCowGame::IsGameWon() const {	return bGameIsWon; }
 
 int32 FBullCowGame::GetMaxTries() const {
-	TMap <int32, int32> WordLengthToMaxTries{ {3,4}, {4,6}, {5,9}, {6,14}, {7, 20} };
+	TMap <int32, int32> WordLengthToMaxTries{ {3,5}, {4,8}, {5,12}, {6,17}, {7, 25} };
 	return WordLengthToMaxTries[MyHiddenWord.length()];
 
 }
 
 void FBullCowGame::Reset()
 {
-	const FString HIDDEN_WORD = "hotel";
+	const FString HIDDEN_WORD = "april";
 	MyHiddenWord = HIDDEN_WORD;
 	
 	MyCurrentTry = 1;

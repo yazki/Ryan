@@ -50,7 +50,7 @@ void PrintIntro() {
 	std::cout << "  | | 、＼\n";
 	std::cout << "  | |  ＼⌒)\n";
 	std::cout << "  | |   ) /\n";
-	std::cout << "(`ノ)　L/\n";
+	std::cout << "(`ノ)　 L/\n";
 	std::cout << std::endl << "\n재밌는 단어 연상 <<Bulls and Cows>> 게임에 오신걸 환영합니다!!^^!\n" << std::endl;
 	std::cout << "제가 생각하는 [" << BCGame.GetHiddenWordLength() << "] 글자의 단어는 무엇일까요? ㅇㅅㅇ\n" << std::endl;
 	std::cout << "참고로 반복되는 글자(EX: aaa 나 aab와 같은)는 아닙니다\n";
